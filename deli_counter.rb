@@ -4,6 +4,7 @@ katz_deli = []
 def take_a_number(array, customer)
   array << customer
   puts "Welcome, #{customer}. You are number #{array.length} in line."
+ 
 end
 
 def now_serving(array)
@@ -25,3 +26,8 @@ def line(array)
     #"The line is currently: 1. Grace 2. Kent 3. Matz"
   end
 end
+
+katz_deli = []
+take_a_number(katz_deli, "John")
+now_serving(katz_deli)
+take_a_number(katz_deli, "Sally")
